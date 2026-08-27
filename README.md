@@ -4,14 +4,13 @@
 [![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey.svg)](https://apple.com/macos)
 [![YouTube](https://img.shields.io/badge/YouTube-The%20Senior%20Geek-red.svg)](https://youtube.com/@TheSeniorGeek)
 
-An automated, lightweight background utility designed to keep Microsoft OneDrive running reliably on macOS by monitoring its process and restarting it automatically if it crashes, closes, or silently hangs.
+An automated, lightweight utility designed for long-running OneDrive hydration or full-download sessions on macOS. It monitors the OneDrive process and automatically restarts it if it crashes or closes. It is intended as a temporary helper during large downloads. It is not an everyday background utility.
 
 ---
 
 ## 📺 Video Walkthrough
 
-**Tutorial Coming Soon!** 
-
+> 🎬 **Tutorial Coming Soon!** 
 A complete video walkthrough and setup demonstration will be available shortly on **[The Senior Geek YouTube Channel](https://youtube.com/@TheSeniorGeek)**.
 
 ---
@@ -30,13 +29,16 @@ A complete video walkthrough and setup demonstration will be available shortly o
 
 ### Direct Download 
 
-1. Download [`OneDrive_Keep_Alive.command`](OneDrive_Keep_Alive.command) to your **Downloads** folder.
-2. Open the Terminal app
-3. Make the file executable by entering the following in Terminal:
-     ```bash
-        chmod +x ~/Downloads/OneDrive_Keep_Alive.command
+1. Click [`OneDrive_Keep_Alive.command`](OneDrive_Keep_Alive.command) to open the file in GitHub.
+2. Click the **Download raw file** button near the upper-right corner of the file view, then save the file to your **Downloads** folder.
+3. Open the Terminal app.
+4. Make the file executable by entering the following in Terminal:
 
-4. Double-click OneDrive_Keep_Alive.command in Finder to run.
+   ```bash
+   chmod +x ~/Downloads/OneDrive_Keep_Alive.command
+   ```
+
+5. Double-click `OneDrive_Keep_Alive.command` in Finder to run.
 
 ## How to Stop the Script
 Press Ctrl + C inside the open Terminal window at any time.
