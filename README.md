@@ -10,7 +10,8 @@ An automated, lightweight background utility designed to keep Microsoft OneDrive
 
 ## 📺 Video Walkthrough
 
-> 🎬 **Tutorial Coming Soon!** 
+**Tutorial Coming Soon!** 
+
 A complete video walkthrough and setup demonstration will be available shortly on **[The Senior Geek YouTube Channel](https://youtube.com/@TheSeniorGeek)**.
 
 ---
