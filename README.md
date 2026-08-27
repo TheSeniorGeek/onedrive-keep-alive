@@ -26,7 +26,7 @@ An automated, lightweight background utility designed to keep Microsoft OneDrive
 
 ## 🚀 Quick Start Guide
 
-### Option 1: Direct Download (Easiest)
+### Direct Download 
 
 1. Download [`OneDrive_Keep_Alive.command`](OneDrive_Keep_Alive.command) to your **Downloads** folder.
 2. Open **Terminal** (`Cmd + Space` $\rightarrow$ type `Terminal`) and make the file executable:
@@ -34,22 +34,17 @@ An automated, lightweight background utility designed to keep Microsoft OneDrive
    chmod +x ~/Downloads/OneDrive_Keep_Alive.command
 Double-click OneDrive_Keep_Alive.command in Finder to run.
 
-Option 2: One-Line Terminal Setup
-Open Terminal and run the following command to download and set permissions automatically:
 
-Bash
-curl -fsSL [https://raw.githubusercontent.com/TheSeniorGeek/onedrive-keep-alive/main/OneDrive_Keep_Alive.command](https://raw.githubusercontent.com/TheSeniorGeek/onedrive-keep-alive/main/OneDrive_Keep_Alive.command) -o ~/Downloads/OneDrive_Keep_Alive.command && chmod +x ~/Downloads/OneDrive_Keep_Alive.command
-⚙️ How to Stop the Script
+## How to Stop the Script
 Press Ctrl + C inside the open Terminal window at any time.
-
 Closing the Terminal window will also terminate the monitoring loop.
 
-🤝 Contributing & Community
+## Contributing & Community
 Suggestions, bug reports, and pull requests are welcome! If you encounter issues or have ideas to improve the utility:
 
 Open an Issue on GitHub.
 
 Submit a Pull Request with your enhancements.
 
-📄 License
+## License
 Distributed under the MIT License. See LICENSE for more information.
