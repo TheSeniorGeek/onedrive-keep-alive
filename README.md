@@ -10,8 +10,7 @@ An automated, lightweight utility designed for long-running OneDrive hydration o
 
 ## 📺 Video Walkthrough
 
-> 🎬 **Tutorial Coming Soon!** 
-A complete video walkthrough and setup demonstration will be available shortly on **[The Senior Geek YouTube Channel](https://youtube.com/@TheSeniorGeek)**.
+A complete video walkthrough and setup demonstration is available on [The Senior Geek YouTube Channel](https://youtu.be/HJn4IVUPQ9s).
 
 ---
 
@@ -32,13 +31,13 @@ A complete video walkthrough and setup demonstration will be available shortly o
 1. Click [`OneDrive_Keep_Alive.command`](OneDrive_Keep_Alive.command) to open the file in GitHub.
 2. Click the **Download raw file** button near the upper-right corner of the file view, then save the file to your **Downloads** folder.
 3. Open the Terminal app.
-4. Make the file executable by entering the following commands in Terminal:
+4. Make the file executable by entering the following in Terminal:
 
    ```bash
    chmod +x ~/Downloads/OneDrive_Keep_Alive.command
-   xattr -d com.apple.quarantine ~/Downloads/OneDrive_Keep_Alive.command
    ```
-5. Open the Downloads folder in Finder. Then double-click OneDrive_Keep_Alive.command to run it.
+
+5. Double-click `OneDrive_Keep_Alive.command` in Finder to run.
 
 ## How to Stop the Script
 Press Ctrl + C inside the open Terminal window at any time.
